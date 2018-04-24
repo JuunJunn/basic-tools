@@ -1,17 +1,17 @@
 {
   "name": "basic-tools",
-  "version": "1.0.4",
+  "version": "1.0.8",
   "description": "常用的实用工具函数包",
   "main": "src/base.js",
   "scripts": {
     "test": "jest",
     "coverage": "npx jest --coverage",
-    "build": "babel src -d bin",
+    "build": "babel src -d es5",
     "precommit": "npx jest --coverage"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/JuunJunn/basic-tools"
+    "url": "http://git.imweb.io/Juun/adam.git"
   },
   "author": "Juun",
   "license": "ISC",

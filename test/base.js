@@ -57,7 +57,7 @@ describe('removeNode', () => {
   })
 
   test('node is undefiend', () => {
-
+    expect(base.removeNode()).toBeFalsy
   })
 })
 
