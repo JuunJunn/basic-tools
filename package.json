@@ -1,0 +1,36 @@
+{
+  "name": "basic-tools",
+  "version": "1.0.4",
+  "description": "常用的实用工具函数包",
+  "main": "src/base.js",
+  "scripts": {
+    "test": "jest",
+    "coverage": "npx jest --coverage",
+    "build": "babel src -d bin",
+    "precommit": "npx jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JuunJunn/basic-tools"
+  },
+  "author": "Juun",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-preset-es2015": "^6.24.1",
+    "clean-webpack-plugin": "^0.1.19",
+    "husky": "^0.14.3",
+    "jest": "^22.4.3",
+    "standard": "^11.0.1",
+    "webpack": "^3.5.4"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {},
+  "keywords": [
+    "tools"
+  ]
+}
